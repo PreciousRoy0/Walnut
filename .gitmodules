@@ -6,6 +6,9 @@
 	path = vendor/imgui
 	url = https://github.com/TheCherno/imgui
 	branch = docking
+[submodule "vendor/implot"]
+	path = vendor/implot
+	url = https://github.com/PreciousRoy0/implot.git
 [submodule "vendor/glfw"]
 	path = vendor/glfw
 	url = https://github.com/thecherno/glfw
