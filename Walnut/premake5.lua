@@ -10,6 +10,7 @@ project "Walnut"
    includedirs
    {
       "../vendor/imgui",
+      "../vendor/implot",
       "../vendor/glfw/include",
       "../vendor/stb_image",
 
@@ -20,6 +21,7 @@ project "Walnut"
    links
    {
        "ImGui",
+       "ImPlot",
        "GLFW",
 
        "%{Library.Vulkan}",

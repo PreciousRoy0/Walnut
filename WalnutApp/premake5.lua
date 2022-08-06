@@ -10,6 +10,7 @@ project "WalnutApp"
    includedirs
    {
       "../vendor/imgui",
+      "../vendor/implot",
       "../vendor/glfw/include",
 
       "../Walnut/src",
@@ -20,7 +21,8 @@ project "WalnutApp"
 
     links
     {
-        "Walnut"
+        "Walnut",
+        "ImPlot"
     }
 
    targetdir ("../bin/" .. outputdir .. "/%{prj.name}")
